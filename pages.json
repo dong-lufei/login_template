@@ -19,17 +19,43 @@
 			}
 
         }
-        , {
-			"path": "pages/t3/t3",
-			"style": {
-				"navigationBarTitleText": "",
-				//#ifdef H5
-				"navigationStyle": "custom"
-				//#endif
-			}
+   //      , {
+			// "path": "pages/t3/t3",
+			// "style": {
+			// 	"navigationBarTitleText": "",
+			// 	//#ifdef H5
+			// 	"navigationStyle": "custom"
+			// 	//#endif
+			// }
 
-        }
+   //      }
+   //      , {
+			// "path": "pages/t4/t4",
+			// "style": {
+			// 	"navigationBarTitleText": "",
+			// 	"enablePullDownRefresh": false
+			// }
+   //      }
+   //      , {
+			// "path": "pages/t5/t5",
+			// "style": {
+			// 	"navigationBarTitleText": "",
+			// 	"enablePullDownRefresh": false
+			// }
+   //      }
     ],
+	"tabBar": {
+		"list": [
+			{
+				"text": "t1",
+				"pagePath": "pages/t1/t1"
+			},
+			{
+				"text": "t2",
+				"pagePath": "pages/t2/t2"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
